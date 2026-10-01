@@ -42,7 +42,7 @@ module instruction_memory (
     // -----------------------------------------------------------------------
     `ifndef SYNTHESIS
     initial begin
-        $readmemh("fib_fixed.mem", memory);
+        $readmemh("comprehensive_test.mem", memory);
     end
     `endif
 
